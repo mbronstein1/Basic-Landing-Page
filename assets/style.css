@@ -1,0 +1,124 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f8d89c;
+}
+
+header {
+    background-color: #57AF49;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    border-bottom: #7bf069 solid 15px;
+}
+
+nav {
+    text-align: right;
+    padding-right: 10px;
+}
+
+a {
+    color: white;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+#welcome {
+    margin: 35px;
+    font-size: 40px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.wave {
+    animation-name: wave-hand;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-hand {
+    0% {
+        transform: rotate(0.0deg);
+    }
+    10% {
+        transform: rotate(14.0deg);
+    }
+    20% {
+        transform: rotate(-8.0deg) 
+    }
+   30% {
+    transform: rotate(14.0deg)
+    }
+   40% {
+    transform: rotate(-4.0deg)
+    }
+   50% {
+    transform: rotate(10.0deg)
+    }
+   60% {
+    transform: rotate( 0.0deg) 
+    }
+  100% { 
+    transform: rotate( 0.0deg)
+    }
+}
+
+ul {
+    display: table;
+    margin: -10px auto 30px;
+}
+
+li {
+    text-align: left;
+}
+
+.box-2 {
+    background-color: #be9850;
+    padding: 5px 30px 15px;
+    display: table;
+    margin: 10px auto;
+    border: 1px dashed #57AF49;
+    border-radius: 30px;
+}
+
+label {
+    display: block;
+    margin: 8px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #57AF49;
+    color: white;
+}
+
+button:hover {
+    animation-name: button-hover;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-hover {
+    100% {
+        background-color: #7bf069;
+    }
+}
+
+footer {
+    background-color: #57AF49;
+    border-bottom: #7bf069 solid 15px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
