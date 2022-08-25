@@ -28,6 +28,7 @@ a {
 
 main {
     text-align: center;
+    margin: 0 30px;
 }
 
 #welcome {
@@ -121,4 +122,44 @@ footer {
     text-align: center;
     padding: 5px;
     color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: .8em;
+    }
+ 
+    nav {
+        text-align: center;
+    }
+
+    #welcome {
+        font-size: 3em;
+    }
+
+    img {
+        width: 70%;
+        height: auto;
+    }
+
+    input {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 408px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    #welcome {
+        font-size: 2em;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
