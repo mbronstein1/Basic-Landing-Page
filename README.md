@@ -49,4 +49,4 @@ This is the first mini-challenge in the Northwestern Coding Bootcamp (Module 1).
 https://mbronstein1.github.io/Landing-Page-Mini-Project-1/
 
 ## Screenshot
-![Webpage Screenshot](./assets/screenshot.jpg)
+![Webpage Screenshot](./assets/Images/screenshot.jpg)
