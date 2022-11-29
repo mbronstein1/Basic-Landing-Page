@@ -1,4 +1,4 @@
-# Landing-Page-Mini-Project-1
+# Basic Landing Page
 
 ## Description
 
@@ -46,7 +46,7 @@ This is the first mini-challenge in the Northwestern Coding Bootcamp (Module 1).
 
 ## Link to live page
 
-https://mbronstein1.github.io/Landing-Page-Mini-Project-1/
+https://mbronstein1.github.io/Basic-Landing-Page/
 
 ## Screenshot
 ![Webpage Screenshot](./assets/Images/screenshot.jpg)
