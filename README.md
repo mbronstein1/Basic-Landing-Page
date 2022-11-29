@@ -4,9 +4,14 @@
 
 This is the first mini-challenge in the Northwestern Coding Bootcamp (Module 1). The assignment was to create a simple static landing page using HTML and CSS that featured a header, a navbar, a main section with an image, some text, a form with a name and email input, and a footer (see guidelines below). I also incorporated a few animations, including a button color animation on-hover as well as a set of hand emojis that wave every 2.5 seconds.
 
-## Guidelines
+## Link to live page
 
-### User stories:
+https://mbronstein1.github.io/Basic-Landing-Page/
+
+## Screenshot
+![Webpage Screenshot](./assets/Images/screenshot.jpg)
+
+## User stories:
 
 * As a client, I want to view a single webpage that collects a visitor's contact information.
 
@@ -18,7 +23,7 @@ This is the first mini-challenge in the Northwestern Coding Bootcamp (Module 1).
 
 * As a client, I want the landing page to have a polished and accessible UI.
 
-### Acceptance Criteria
+## Acceptance Criteria
 
 * It's done when the page uses semantic HTML elements.
 
@@ -43,10 +48,3 @@ This is the first mini-challenge in the Northwestern Coding Bootcamp (Module 1).
 * It's done when the image includes a descriptive `alt` attribute.
 
 * It's done when the page is deployed to GitHub Pages.
-
-## Link to live page
-
-https://mbronstein1.github.io/Basic-Landing-Page/
-
-## Screenshot
-![Webpage Screenshot](./assets/Images/screenshot.jpg)
